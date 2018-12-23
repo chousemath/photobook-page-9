@@ -7,3 +7,75 @@
     vertical-align: baseline;
     background: transparent;
 }
+
+.container-main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+  }
+
+  .container-secondary {
+    width: 200px;
+    height: 550px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-row {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container-tertiary-0 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .container-tertiary-1 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #724c04;
+  }
+
+  .container-tertiary-2 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #97982b;
+  }
+
+  .container-tertiary-3 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c96f6f;
+  }
+
+  .container-number {
+    margin-left: 18px;
+    width: 32px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-size: 24px;
+    color: #fff;
+  }
